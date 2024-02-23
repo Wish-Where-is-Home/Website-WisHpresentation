@@ -1,0 +1,15 @@
+.navbar-open-button {
+    position: fixed;
+    left: 60px; 
+    top:60px;
+    z-index: 900; 
+    background-color: black; 
+    border: 2px solid white;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.navbar-open-button svg{
+    color: white;
+}

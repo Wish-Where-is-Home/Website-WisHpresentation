@@ -1,0 +1,36 @@
+.home-section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: -33;
+    justify-content: center;
+    position: relative; 
+    opacity: 1;
+    background-image: url('../../Assets/backgroundhome.jpeg');
+    background-size: cover; 
+    background-position: center;
+}
+
+.home-section::before {
+    z-index:-32;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+}
+
+.home-section h2{
+    color: #4cdbfb; 
+    font-size: 3rem;
+    text-align: center;
+    opacity: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+}
+
+
+
