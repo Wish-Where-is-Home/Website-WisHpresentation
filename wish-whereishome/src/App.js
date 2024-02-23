@@ -11,6 +11,11 @@ import LoadingBar from 'react-top-loading-bar';
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [progress, setProgress] = useState(0);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen);
+  };
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -35,8 +40,8 @@ function App() {
       ) : (
         <div className="app-content">
           <ScrollToTop />
-          <NavbarOpenButton />
-          <Navbar />
+          <NavbarOpenButton onClick={toggleNavbar} />
+           <Navbar isOpen={isOpen} toggleNavbar={toggleNavbar}/>
           <Home />
           <Product />
         </div>
