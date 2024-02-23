@@ -20,11 +20,6 @@ const NavbarOpenButton = ({ onClick }) => {
 
   return (
     <div className="navbar-open-button" onClick={onClick}>
-     {showMenuText && (
-        <p>
-          Menu
-        </p>
-      )}
       <button>
         <svg
           width="30"
@@ -41,6 +36,11 @@ const NavbarOpenButton = ({ onClick }) => {
           />
         </svg>
       </button>
+      {showMenuText && (
+        <p>
+          Menu
+        </p>
+      )}
     </div>
   );
 };

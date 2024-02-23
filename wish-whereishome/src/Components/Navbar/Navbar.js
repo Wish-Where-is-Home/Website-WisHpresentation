@@ -5,6 +5,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
+import { Link } from 'react-scroll';
+
+
 const Navbar = ({ isOpen, toggleNavbar }) => {
   return (
     <nav className={`navbar ${isOpen ? 'open' : ''}`}>
@@ -17,7 +20,7 @@ const Navbar = ({ isOpen, toggleNavbar }) => {
             </div>
             <div className='navbar-content'>
                 <ul className='navbar-list'>
-                    <li><a href="#0">Home</a></li>
+                    <li><Link to="home" spy={true} smooth={true} duration={500} className="navbar-link"onClick={toggleNavbar}>Home</Link></li>
                     <li><a href="#0">Product</a></li>
                     <li><a href="#0">Presentations</a></li>
                     <li><a href="#0">Documents</a></li>

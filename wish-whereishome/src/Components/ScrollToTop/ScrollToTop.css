@@ -1,0 +1,28 @@
+.back-to-top-button{
+    position: fixed;
+    left: 60px;
+    bottom: 60px;
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+
+}
+
+.back-to-top-button:hover{
+    border: 1px solid #4cdbfb;
+}
+
+.icon-scroll-up{
+    font-size: 1.2rem;
+    color: black;
+    transition: 0.3s;
+}
+
+
+.back-to-top-button:hover .icon-scroll-up{
+    color: #4cdbfb;
+}

@@ -73,6 +73,7 @@
     padding: 0;
   }
   
+  
   .home-options-div p {
     margin-left: 15px;
     font-size: 15px;
@@ -90,7 +91,7 @@
   }
   
   .icons-home {
-    font-size: 12px;
+    font-size: 7px;
     color: #4cdbfb; 
   }
   
@@ -100,3 +101,22 @@
     font-weight: 400;
     letter-spacing: 0.15rem;
   }
+
+  .home-options-div:hover p.special-color {
+    color: #4cdbfb; 
+  }
+  
+  .fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 1s ease forwards;
+  }
+  
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

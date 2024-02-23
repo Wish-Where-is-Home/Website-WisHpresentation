@@ -106,6 +106,10 @@
     color: #4cdbfb; 
 }
 
+.navbar-link{
+    cursor: pointer;
+}
+
 
 .navbar-github{
     display: flex;
