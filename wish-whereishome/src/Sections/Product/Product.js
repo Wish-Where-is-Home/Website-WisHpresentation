@@ -3,7 +3,7 @@ import './Product.css';
 
 const Product = () => {
   return (
-    <div className='product-section'>
+    <div id="product" className='product-section'>
       
     </div>
   );

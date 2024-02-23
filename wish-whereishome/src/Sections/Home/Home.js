@@ -3,7 +3,7 @@ import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircle } from '@fortawesome/free-solid-svg-icons';
 import ScrollDownButton from '../../Components/ScrollDownButton/ScrollDownButton';
-
+import { Link } from 'react-scroll';
 
 function Home() {
   return (
@@ -13,21 +13,36 @@ function Home() {
         <h2 className='home-title'>Where is Home</h2>
       </div>
       <div className='home-options'>
-        <span>
+        <Link activeClass="active" smooth spy to="product" className='home-options-div'>
+          <div className='home-options-div'>
             <FontAwesomeIcon  className='icons-home' icon={faCircle} />
             <p>Product</p>
-          </span>
+          </div>
           <span>
+            <p className='under-options'>what we built</p>
+          </span>
+        </Link>
+        <Link activeClass="active" smooth spy to="Team" className='home-options-div'>
+          <div className='home-options-div'>
             <FontAwesomeIcon  className='icons-home' icon={faCircle} />
             <p>Team</p>
-          </span>
-          <span>
+          </div>
+          <div>
+            <p className='under-options'>who we are</p>
+          </div>
+        </Link>
+        <Link activeClass="active" smooth spy to="Contact" className='home-options-div'>
+          <div className='home-options-div'>
             <FontAwesomeIcon  className='icons-home' icon={faCircle} />
             <p>Contact</p>
-          </span>
-        </div>
-        <ScrollDownButton/>
+          </div>
+          <div>
+            <p className='under-options'>get in touch</p>
+          </div>
+        </Link>
       </div>
+      <ScrollDownButton/>
+    </div>
   );
 }
 

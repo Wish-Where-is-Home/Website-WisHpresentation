@@ -6,12 +6,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const ScrollDownButton = () => {
 
-
-
-
+    const scrollToProductSection = () => {
+        const productSection = document.getElementById('product');
+        productSection.scrollIntoView({ behavior: 'smooth' });
+    };
 
     return (
-        <div className="ScrollDown-button">
+        <div className="ScrollDown-button" onClick={scrollToProductSection}>
             <p>Scroll down</p>
             <button className="ScrollDownButton" >
                 <FontAwesomeIcon className='icon-scroll-down' icon={faArrowDown} />

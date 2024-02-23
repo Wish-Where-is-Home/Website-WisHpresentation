@@ -3,7 +3,9 @@
     flex-direction: row;
     position: absolute;
     right: 100px;
-    bottom: 100px;
+    bottom: 110px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
 }
 
 .ScrollDown-button p{
@@ -14,7 +16,22 @@
     letter-spacing: 0.15rem;
     margin-right: 20px;
     color: white;
+    cursor: pointer;
 }
+
+
+.ScrollDown-button:hover::after {
+    content: ''; 
+    position: absolute; 
+    left: 0; 
+    bottom: -0.5rem; 
+    width: 100%; 
+    height: 2px; 
+    background-color: #4cdbfb; 
+    text-decoration: underline; 
+    cursor: pointer;
+  }
+
 
 
 .ScrollDownButton{
@@ -24,7 +41,8 @@
     transition: 0.3s;
     width: 3rem;
     background-color: white;
-    border: 2px solid white;
+    border: 4px solid white;
+    border-radius: 2rem;
 }
 
 .ScrollDownButton:hover{

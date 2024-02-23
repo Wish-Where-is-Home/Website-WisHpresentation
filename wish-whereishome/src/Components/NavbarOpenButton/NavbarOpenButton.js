@@ -1,12 +1,30 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './NavbarOpenButton.css'; 
 
 const NavbarOpenButton = ({ onClick }) => {
+
+  const [showMenuText, setShowMenuText] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      setShowMenuText(scrollTop < 400); 
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+
   return (
     <div className="navbar-open-button" onClick={onClick}>
-      <p>
-        Menu
-      </p>
+     {showMenuText && (
+        <p>
+          Menu
+        </p>
+      )}
       <button>
         <svg
           width="30"

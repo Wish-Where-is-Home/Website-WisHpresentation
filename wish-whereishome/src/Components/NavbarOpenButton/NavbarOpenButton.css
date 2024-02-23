@@ -9,16 +9,23 @@
     flex-direction: row;
 }
 
+
 .navbar-open-button p{
     margin-left: 15px;
-    font-size: 15px;
+    font-size: 14px;
     font-family: "Quantico", sans-serif;
     font-weight: 400;
-    letter-spacing: 0.15rem;
+    letter-spacing: 0.4rem;
     margin-right: 20px;
     color: white;
+    text-transform: uppercase;
     cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
 
+.navbar-open-button p:hover{
+    color: #4cdbfb;
+    
 }
 
 .navbar-open-button button{
@@ -32,3 +39,4 @@
 .navbar-open-button svg{
     color: white;
 }
+
