@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircle } from '@fortawesome/free-solid-svg-icons';
@@ -6,7 +6,7 @@ import ScrollDownButton from '../../Components/ScrollDownButton/ScrollDownButton
 import { Link } from 'react-scroll';
 
 function Home() {
-  const [isLoaded, setIsLoaded] = useState(true);
+  const [isLoaded] = useState(true);
 
 
   return (
