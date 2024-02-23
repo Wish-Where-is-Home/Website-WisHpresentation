@@ -6,7 +6,7 @@
     width: 3rem;
     height: 3rem;
     border-radius: 2rem;
-    background-color: white;
+    background-color: black;
     color: black;
     border: 1px solid black;
 
@@ -18,7 +18,7 @@
 
 .icon-scroll-up{
     font-size: 1.2rem;
-    color: black;
+    color: white;
     transition: 0.3s;
 }
 
