@@ -7,6 +7,7 @@ import Product from './Sections/Product/Product';
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
 import { CircleLoader } from 'react-spinners';
 import LoadingBar from 'react-top-loading-bar';
+import Team from './Sections/Team/Team';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -33,7 +34,7 @@ function App() {
   return (
     <div className="App">
       {isLoading ? (
-        <div className="loading-spinner">
+        <div className="loading-spinner fadeOut">
           <LoadingBar progress={progress} color="#61dafb" height={5} />
           <CircleLoader className='loader' color="#61dafb" loading={isLoading} size={150} />
         </div>
@@ -44,6 +45,7 @@ function App() {
            <Navbar isOpen={isOpen} toggleNavbar={toggleNavbar}/>
           <Home />
           <Product />
+          <Team />
         </div>
       )}
     </div>

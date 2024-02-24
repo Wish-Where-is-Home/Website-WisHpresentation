@@ -30,6 +30,7 @@
     background-color: #4cdbfb; 
     text-decoration: underline; 
     cursor: pointer;
+    transition: 1s ease-in-out; 
   }
 
 
