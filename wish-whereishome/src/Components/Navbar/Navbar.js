@@ -21,7 +21,7 @@ const Navbar = ({ isOpen, toggleNavbar }) => {
             <div className='navbar-content'>
                 <ul className='navbar-list'>
                     <li><Link to="home" spy={true} smooth={true} duration={500} className="navbar-link"onClick={toggleNavbar}>Home</Link></li>
-                    <li><a href="#0">Product</a></li>
+                    <li><Link to="product" spy={true} smooth={true} duration={500} className="navbar-link"onClick={toggleNavbar}>Product</Link></li>
                     <li><a href="#0">Presentations</a></li>
                     <li><a href="#0">Documents</a></li>
                     <li><a href="#0">Architecture</a></li>
