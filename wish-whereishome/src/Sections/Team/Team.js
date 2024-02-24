@@ -17,12 +17,12 @@ const Team = () => {
             </div>
             <div className='show-team-cards'>
               <TeamMemberCard name="Cristiano Nicolau" email="cristianonicolau@ua.pt" role="Student" github="https://github.com/cristiano-nicolau" />
-              <TeamMemberCard name="Gonçalo Lopes"  email="goncalorcml@ua.pt" role="Student" github="https://github.com/joanaagomesua"/>
+              <TeamMemberCard name="Gonçalo Lopes"  email="goncalorcml@ua.pt" role="Student" github="https://github.com/MoreiraLopes" />
               <TeamMemberCard name="Miguel Miragaia"  email="miguelmiragaia@ua.pt" role="Student" github="https://github.com/Miragaia"/>
-              <TeamMemberCard name="Joana Gomes"  email="joanaagomes@ua.pt" role="Student" github="https://github.com/MoreiraLopes"/>
+              <TeamMemberCard name="Joana Gomes"  email="joanaagomes@ua.pt" role="Student" github="https://github.com/joanaagomesua"/>
               <TeamMemberCard name="Tiago Cruz"  email="tiagofcruz78@ua.pt" role="Student" github="https://github.com/TiagoC18"/>
               <TeamMemberCard name="Vasco Faria"  email="vascomfaria@ua.pt" role="Student" github="https://github.com/Vasco-Faria"/>
-              <TeamMemberCard name="José Moreira"  email=" " role="Mentor" github="https://github.com/josemoreiraUA"/>
+              <TeamMemberCard name="José Moreira"  email="jose.moreira@ua.pt" role="Mentor" github="https://github.com/josemoreiraUA"/>
             </div>
         </div>
       </div>
