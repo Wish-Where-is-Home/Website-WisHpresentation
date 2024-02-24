@@ -1,0 +1,47 @@
+.team-member-card {
+    width: calc(33.33% - 50px);
+    margin-bottom: 20px;
+    background-color: rgba(85, 85, 85, 0.028);
+    padding: 20px;
+    box-sizing: border-box;
+    height: 18rem;
+  }
+
+
+  @media (max-width: 1280px) {
+    .team-member-card {
+      width: calc(50% - 10px); 
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .team-member-card {
+      width: calc(100% - 10px); 
+    }
+  }
+
+
+.team-member-card img {
+    width: 90px;
+  margin: 0 auto 0 auto;
+  border-radius: 50%;
+}
+
+.team-member-card h3{
+    font-family: "metropolis-semibold", sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+
+  .team-member-card span {
+    font-family: "metropolis-semibold", sans-serif;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+
+  .github-team{
+    font-size: 24px;
+    cursor: pointer;
+  }
