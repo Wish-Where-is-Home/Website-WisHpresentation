@@ -1,9 +1,10 @@
 .team-member-card {
     width: calc(33.33% - 50px);
     margin-bottom: 20px;
-    background-color: rgba(85, 85, 85, 0.028);
+    background-color: rgba(85, 85, 85, 0.127);
     padding: 20px;
     box-sizing: border-box;
+    border-radius: 3rem;
     height: 18rem;
   }
 
@@ -39,6 +40,10 @@
     display: block;
     margin-top: 5px;
     margin-bottom: 15px;
+  }
+
+  .role{
+    color:rgba(85, 85, 85, 0.764);
   }
 
   .github-team{

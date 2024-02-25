@@ -34,7 +34,7 @@ function Home() {
             <p className='under-options'>who we are</p>
           </div>
         </Link>
-        <Link activeClass="active" smooth spy to="Contact" className='home-options-div'>
+        <Link activeClass="active" smooth spy to="team" className='home-options-div'>
           <div className='home-options-div'>
             <FontAwesomeIcon className='icons-home' icon={faCircle} />
             <p className="special-color">Contact</p>

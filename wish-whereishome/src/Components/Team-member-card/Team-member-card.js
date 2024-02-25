@@ -11,7 +11,7 @@ const TeamMemberCard = ({name,email, role, github}) =>{
             <img src={user} alt='default-user'></img>
             <h3>{name}</h3>
             <span>{email}</span>
-            <span>{role}</span>
+            <span className='role'>{role}</span>
             <div className='team-social'>
                 <a href={github}  target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faGithub} className='github-team' color="#2f95ac"/>

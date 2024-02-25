@@ -8,6 +8,7 @@ import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
 import { CircleLoader } from 'react-spinners';
 import LoadingBar from 'react-top-loading-bar';
 import Team from './Sections/Team/Team';
+import Footer from './Sections/Footer/Footer';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -46,6 +47,7 @@ function App() {
           <Home />
           <Product />
           <Team />
+          <Footer />
         </div>
       )}
     </div>

@@ -1,0 +1,25 @@
+.footer-section{
+    height: 17vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.footer-container{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    height: 40%;
+    width: 80%;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 30px;
+}
+
+
+.footer-container div{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
