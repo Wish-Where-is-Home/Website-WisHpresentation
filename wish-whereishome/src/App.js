@@ -12,6 +12,7 @@ import Footer from './Sections/Footer/Footer';
 import Presentations from './Sections/Presentations/Presentations';
 import Architecture from './Sections/Architecture/Architecture';
 import Timeline from './Sections/Timeline/Timeline';
+import Documentation from './Sections/Documentation/Documentation';
 
 
 
@@ -51,6 +52,7 @@ function App() {
            <Navbar isOpen={isOpen} toggleNavbar={toggleNavbar}/>
           <Home />
           <Product />
+          <Documentation/>
           <Presentations/>
           <Architecture/>
           <Timeline/>

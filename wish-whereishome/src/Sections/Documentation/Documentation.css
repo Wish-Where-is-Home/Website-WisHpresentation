@@ -1,0 +1,120 @@
+.documentation-section{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    flex-direction: column;
+    background-color:rgb(255, 255, 255);
+    padding-bottom: 2rem;
+}
+
+
+
+.documentation-content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 65%;
+    background-image: url('../../Assets/documentationphoto.jpg');
+    background-size: cover; 
+    background-position: center;
+}
+
+
+.row-documentation-h3{
+    width: 100%;
+    float: left;
+    padding: 0 20px;
+    padding-top: 8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.row-documentation-h3 h3{
+    font-family: "metropolis-semibold", sans-serif;
+    font-size: 16px;
+    line-height: 1.3125;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    color: #2f95ac; 
+    align-self: flex-start;
+}
+
+
+.row-documentation-h3 p{
+    line-height: 42px;
+    font-family: "metropolis-regular", sans-serif;
+    font-size: 24px;
+    margin-bottom: 36px;
+    color:rgba(85, 85, 85, 0.95);
+    align-self: flex-start;
+}
+
+
+.doc-button-div{
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+    margin-top: 3rem;
+}
+
+.documentation-button {
+    align-items: center;
+    background-image: linear-gradient(135deg, #2f95ac 40%, #185e6e );
+    border: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-family: "Codec cold",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    height: 54px;
+    justify-content: center;
+    letter-spacing: .7px;
+    line-height: 1;
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-left: 3rem;
+  }
+  
+  .documentation-button:active {
+    outline: 0;
+  }
+  
+  .documentation-button:hover {
+    outline: 0;
+  }
+  
+  .documentation-button span {
+    transition: all 200ms;
+  }
+  
+  .documentation-button:hover span {
+    transform: scale(.9);
+    opacity: .75;
+  }
+  
+
+
+  .product-button.active {
+    background-image: linear-gradient(135deg, #ffffff 40%, #ffffff );
+    border: 4px solid #2f95ac;
+  }
+  
+  .product-button.active span{
+    color: #2f95ac;
+  }
