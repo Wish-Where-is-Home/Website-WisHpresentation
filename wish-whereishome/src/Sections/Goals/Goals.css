@@ -1,7 +1,7 @@
 .goals-section{
     display: flex;
     padding: 0 40px;
-    min-height: 60vh;
+    height: 100vh;
     flex-direction: column;
     padding-bottom: 3rem;
 }
@@ -19,14 +19,15 @@
 .goals-content{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 80%;
+    justify-content: space-around;
+    width: 100%;
     align-self: center;
+    display: flex; 
+    flex-wrap: wrap;
 }
 
 
 
 .goals-content div{
     display: flex;
-
 }
