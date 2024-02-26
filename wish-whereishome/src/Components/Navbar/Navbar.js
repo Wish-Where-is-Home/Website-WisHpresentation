@@ -22,9 +22,9 @@ const Navbar = ({ isOpen, toggleNavbar }) => {
                 <ul className='navbar-list'>
                     <li><Link to="home" spy={true} smooth={true} duration={500} className="navbar-link"onClick={toggleNavbar}>Home</Link></li>
                     <li><Link to="product" spy={true} smooth={true} duration={500} className="navbar-link"onClick={toggleNavbar}>Product</Link></li>
-                    <li><a href="#0">Presentations</a></li>
-                    <li><a href="#0">Architecture</a></li>
-                    <li><a href="#0">Calendar</a></li>
+                    <li><Link to="presentations" spy={true} smooth={true} duration={500} className="navbar-link"onClick={toggleNavbar}>Presentations</Link></li>
+                    <li><Link to="architecture" spy={true} smooth={true} duration={500} className="navbar-link"onClick={toggleNavbar}>Architecture</Link></li>
+                    <li><Link to="timeline" spy={true} smooth={true} duration={500} className="navbar-link"onClick={toggleNavbar}>Timeline</Link></li>
                     <li><Link to="team" spy={true} smooth={true} duration={500} className="navbar-link"onClick={toggleNavbar}>Team</Link></li>
                 </ul>
             </div>

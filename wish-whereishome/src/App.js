@@ -9,6 +9,11 @@ import { CircleLoader } from 'react-spinners';
 import LoadingBar from 'react-top-loading-bar';
 import Team from './Sections/Team/Team';
 import Footer from './Sections/Footer/Footer';
+import Presentations from './Sections/Presentations/Presentations';
+import Architecture from './Sections/Architecture/Architecture';
+import Timeline from './Sections/Timeline/Timeline';
+
+
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -46,6 +51,9 @@ function App() {
            <Navbar isOpen={isOpen} toggleNavbar={toggleNavbar}/>
           <Home />
           <Product />
+          <Presentations/>
+          <Architecture/>
+          <Timeline/>
           <Team />
           <Footer />
         </div>
