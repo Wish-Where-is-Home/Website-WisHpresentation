@@ -13,7 +13,6 @@
     width: 80%;
     flex-direction: row;
     grid-template-columns: 1fr 1fr 1fr; 
-    gap: 30px;
 }
 
 
@@ -21,5 +20,71 @@
     height: 100%;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
+
+.footer-github{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icon{
+    font-size: 3rem;
+    color: black;
+}
+
+.footer-icon:hover{
+    color: #2f95ac; 
+    transition: 0.5s;
+}
+
+.footer-copyright{
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.footer-content a{
+   text-decoration: none;
+   color:rgba(85, 85, 85, 0.95);
+   font-size: 17px;
+   position: relative;
+}
+
+.footer-content a:hover{
+    text-decoration: none;
+    color: #2f95ac; 
+}
+
+.footer-content a::before {
+    content: '';
+    position: absolute;
+    bottom: -2px; 
+    left: 0;
+    width: 100%;
+    height: 1px; 
+    border-bottom: 1px dashed rgba(85, 85, 85, 0.95);
+  }
+
+
+.footer-title{
+    font-size: 18px;
+    font-family: "metropolis-semibold", sans-serif;
+    font-weight: 400;
+}
+
+.footer-copyright img{
+    height: 4rem;
+    width: 4rem;
+    margin-right: 10px;
+}
+
+.footer-copyright p{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "metropolis-semibold", sans-serif;
+}
