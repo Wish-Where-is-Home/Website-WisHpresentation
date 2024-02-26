@@ -1,0 +1,47 @@
+.context-section{
+    display: flex;
+    padding: 0 40px;
+    min-height: 50vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+.context-section h3{
+    font-size: 35px;
+    line-height: 1.3125;
+    align-self: flex-start;
+    text-align: start;
+    width: 100%;
+    padding-bottom: 5rem;
+}
+
+
+.context-content {
+    display: grid;
+    grid-template-columns: 45% 5% 50%;
+}
+
+.context-content p {
+    font-size: 20px;
+    line-height: 1.3125;
+    text-align: justify;
+}
+
+.context-logo {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
+
+.context-logo img{
+    width: 70%;
+    height: 100%;
+
+}
+
+.context-text {
+    grid-column: 3;
+    align-items: center;
+    justify-content: center;
+}

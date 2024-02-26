@@ -1,0 +1,17 @@
+.goals-section{
+    display: flex;
+    padding: 0 40px;
+    min-height: 60vh;
+    flex-direction: column;
+    padding-bottom: 3rem;
+}
+
+.goals-section h3{
+    font-size: 35px;
+    line-height: 1.3125;
+    align-self: flex-start;
+    text-align: start;
+    width: 100%;
+    padding-bottom: 5rem;
+}
+

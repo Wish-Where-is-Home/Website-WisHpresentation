@@ -13,6 +13,7 @@
     width: 80%;
     flex-direction: row;
     grid-template-columns: 1fr 1fr 1fr; 
+    padding-bottom: 2rem;
 }
 
 
@@ -78,8 +79,8 @@
 }
 
 .footer-copyright img{
-    height: 5rem;
-    width: 5rem;
+    height: 6rem;
+    width: 6rem;
     margin-right: 10px;
 }
 

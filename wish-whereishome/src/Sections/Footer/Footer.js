@@ -19,7 +19,7 @@ function Footer() {
           <a href='https://www.ua.pt/' target="_blank" rel="noreferrer" >Universidade de Aveiro</a>
         </div>
         <div className='footer-copyright'>
-          <img src={logo}></img>
+          <img src={logo} alt='copyright'></img>
           <p>Copyright  © 2024  Where is Home</p>
         </div>
       </div>
