@@ -1,6 +1,6 @@
 .product-section{
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +23,7 @@
     width: 100%;
     float: left;
     padding: 0 20px;
-    padding-top: 6rem;
+    padding-top: 3.5rem;
     display: flex;
 }
 
@@ -41,9 +41,10 @@
 
 .product-buttons-switch{
     display: flex;
+    justify-self: end;
     justify-content: space-between;
     padding: 0 20px;
     padding-top: 4rem;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
     width: 20%;
 }

@@ -4,15 +4,19 @@ import logo from '../../Assets/logo.jpg';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGoogleDrive } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
   return (
     <div className='footer-section' >
       <div className='footer-container'>
         <div className='footer-github'>
+          <a href="https://drive.google.com/drive/folders/1fGVwnjm3JD7zJtq1r_-hLAYAm13eImE8?usp=drive_link" className='footer-icon1' target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon icon={faGoogleDrive} />
+          </a>
           <a href="https://github.com/Wish-Where-is-Home" className='footer-icon' target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faGithub} />
-                </a>
+          </a>
         </div>
         <div  className="footer-content">
           <p className='footer-title'>Projeto em Informatica (3º ano LEI)</p>
@@ -25,6 +29,6 @@ function Footer() {
       </div>
     </div>
   );
-}
+} 
 
 export default Footer;

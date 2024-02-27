@@ -37,6 +37,19 @@
     color: black;
 }
 
+
+.footer-icon{
+    font-size: 3rem;
+    color: black;
+}
+
+
+.footer-icon1{
+    font-size: 3rem;
+    margin-right: 2rem;
+    color: black ;
+}
+
 .footer-icon:hover{
     color: #2f95ac; 
     transition: 0.5s;

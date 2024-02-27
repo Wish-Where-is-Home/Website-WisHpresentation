@@ -4,6 +4,7 @@ import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGoogleDrive } from '@fortawesome/free-brands-svg-icons';
 
 import { Link } from 'react-scroll';
 
@@ -30,11 +31,17 @@ const Navbar = ({ isOpen, toggleNavbar }) => {
                 </ul>
             </div>
             <div className='navbar-github'>
-                <p>Follow Us</p>
+                <p>Github</p>
                 <a href="https://github.com/Wish-Where-is-Home" className="github-icon" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faGithub} />
                 </a>
-            </div>  
+            </div> 
+            <div className='navbar-github'>
+                <p>Google Drive</p>
+                <a href="https://drive.google.com/drive/folders/1fGVwnjm3JD7zJtq1r_-hLAYAm13eImE8?usp=drive_link" className="github-icon" target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon icon={faGoogleDrive} />
+                </a>
+            </div>   
         </div>
     </nav>
   );

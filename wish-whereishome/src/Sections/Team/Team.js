@@ -16,13 +16,17 @@ const Team = () => {
                 <p>Our dedicated team of students and mentors from  <a href='https://www.ua.pt/' target="_blank" rel="noreferrer" >Universidade de Aveiro</a></p>
             </div>
             <div className='show-team-cards'>
+              <div className='team-collum'>
               <TeamMemberCard name="Cristiano Nicolau" email="cristianonicolau@ua.pt" role="Student" github="https://github.com/cristiano-nicolau" />
               <TeamMemberCard name="Gonçalo Lopes"  email="goncalorcml@ua.pt" role="Student" github="https://github.com/MoreiraLopes" />
               <TeamMemberCard name="Miguel Miragaia"  email="miguelmiragaia@ua.pt" role="Student" github="https://github.com/Miragaia"/>
               <TeamMemberCard name="Joana Gomes"  email="joanaagomes@ua.pt" role="Student" github="https://github.com/joanaagomesua"/>
               <TeamMemberCard name="Tiago Cruz"  email="tiagofcruz78@ua.pt" role="Student" github="https://github.com/TiagoC18"/>
               <TeamMemberCard name="Vasco Faria"  email="vascomfaria@ua.pt" role="Student" github="https://github.com/Vasco-Faria"/>
+              </div>
+              <div className='mentor-collum'>
               <TeamMemberCard name="José Moreira"  email="jose.moreira@ua.pt" role="Mentor" github="https://github.com/josemoreiraUA"/>
+              </div>
             </div>
         </div>
       </div>
