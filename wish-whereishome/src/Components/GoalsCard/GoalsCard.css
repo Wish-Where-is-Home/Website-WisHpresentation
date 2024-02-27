@@ -1,7 +1,7 @@
 .goal-card {
     position: relative;
-    min-width: 20rem;
-    height: 10rem;
+    width: 25rem;
+    height: 17rem;
     box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
       inset -5px -5px 15px rgba(255, 255, 255, 0.1),
       5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
@@ -50,17 +50,19 @@
 
  .goal-card .box .content h2 {
     position: absolute;
-    top: -30px;
+    top: -50px;
     right: 30px;
     font-size: 8rem;
     color: rgba(255, 255, 255, 0.1);
   }
 .goal-card .box .content h3 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: #4cdbfb;
     z-index: 1;
     transition: 0.5s;
-    margin-bottom: 15px;
+    align-self: start;
+    justify-self: start;
+    margin-top: 0;
   }
   
 .goal-card .box .content p {

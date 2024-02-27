@@ -12,7 +12,6 @@ const GoalsCard = ({number, goal, text}) => {
             <div class="content">
                 <h2>{number}</h2>
                 <h3>{goal}</h3>
-                <p>{text}</p>
             </div>
         </div>
     </div>
