@@ -1,6 +1,6 @@
 .presentations-section{
     width: 100%;
-    height: 100vh;
+    max-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,7 +22,7 @@
     width: 100%;
     float: left;
     padding: 0 20px;
-    padding-top: 8rem;
+    padding-top: 5rem;
     display: flex;
 }
 
@@ -35,4 +35,35 @@
     letter-spacing: 0.25rem;
     color: #2f95ac; 
     align-self: flex-start;
+}
+
+
+.row-presentations-p{
+    width: 100%;
+    float: left;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.row-presentations-p p{
+    line-height: 42px;
+    font-family: "metropolis-regular", sans-serif;
+    font-size: 24px;
+    margin-bottom: 36px;
+    color:rgba(85, 85, 85, 0.95);
+}
+
+
+.show-presentations{
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    margin-top: 3rem;
+    padding-bottom: 4rem;
+    height: 30vh;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
 }
