@@ -2,7 +2,7 @@
 
 .navbar-open-button{
     position: fixed;
-    left: 60px; 
+    left: 50px; 
     top:60px;
     z-index: 2; 
     display: flex;

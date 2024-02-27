@@ -51,73 +51,95 @@
 }
 
 .home-options {
-    position: absolute;
-    width: 50%;
-    height: 3rem;
-    margin: 0 auto;
-    justify-content: center; 
-    display: flex;
-    bottom: 100px;
-    justify-content: space-between;
+  position: absolute;
+  width: 50%;
+  height: 3rem;
+  margin: 0 auto;
+  justify-content: center; 
+  display: flex;
+  bottom: 100px;
+  justify-content: space-between;
+}
+
+.home-options-div {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.home-options-div p {
+  margin-left: 15px;
+  font-size: 15px;
+  font-family: "Quantico", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.30rem;
+}
+
+.home-options-div div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 2rem;
+  letter-spacing: 0.30rem;
+}
+
+.icons-home {
+  font-size: 7px;
+  color: #4cdbfb; 
+}
+
+.under-options {
+  font-size: 12px;
+  font-family: "Quantico", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.15rem;
+}
+
+.home-options-div:hover p.special-color {
+  color: #4cdbfb; 
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 1s ease forwards;
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
   }
-  
-  .home-options-div {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    cursor: pointer;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+  to {
+    opacity: 1;
   }
-  
-  
-  .home-options-div p {
-    margin-left: 15px;
-    font-size: 15px;
-    font-family: "Quantico", sans-serif;
-    font-weight: 400;
-    letter-spacing: 0.30rem;
-  }
-  
-  .home-options-div div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 2rem;
-    letter-spacing: 0.30rem;
-  }
-  
-  .icons-home {
-    font-size: 7px;
-    color: #4cdbfb; 
-  }
-  
-  .under-options {
-    font-size: 12px;
-    font-family: "Quantico", sans-serif;
-    font-weight: 400;
-    letter-spacing: 0.15rem;
+}
+
+@media (max-width: 1000px) {
+  .home-options {
+    display: none;
   }
 
-  .home-options-div:hover p.special-color {
-    color: #4cdbfb; 
+  .home-options-div {
+    display: none;
   }
-  
-  .fade-in {
-    opacity: 0;
-    animation: fadeInAnimation 1s ease forwards;
+
+  .home-section .home-title{
+    font-size: 2.5rem;
   }
-  
-  @keyframes fadeInAnimation {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
+}
+
+
+@media (max-width: 700px) {
+  .home-section .home-title{
+    font-size: 2rem;
   }
-  
+  .home-section .home-title2{
+    font-size: 1.5rem;
+  }
+}
