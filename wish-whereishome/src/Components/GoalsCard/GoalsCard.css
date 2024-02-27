@@ -95,3 +95,44 @@
     color: #000;
   }
   
+
+  @media (max-width: 1500px) {
+    .goal-card {
+      position: relative;
+      width: 20rem;
+      height: 15rem;
+      max-height: 15rem;
+      box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+        inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+        5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      margin-bottom: 30px;
+      transition: 0.5s;
+    }
+    
+  }
+
+  @media (max-width: 768px) {
+    .goal-card {
+      position: relative;
+      width: 30rem;
+      height: 7rem;
+      max-height: 15rem;
+      box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+        inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+        5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      margin-bottom: 30px;
+      transition: 0.5s;
+    }
+
+    .goal-card .box .content h3 {
+      font-size: 0.8rem;
+      color: #4cdbfb;
+      z-index: 1;
+      transition: 0.5s;
+      align-self: start;
+      justify-self: start;
+      margin-top: 1rem;
+    }
+  }

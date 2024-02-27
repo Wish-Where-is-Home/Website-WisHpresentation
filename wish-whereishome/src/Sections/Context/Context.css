@@ -1,7 +1,7 @@
 .context-section{
     display: flex;
     padding: 0 40px;
-    height: 100%;
+    max-height: 100%;
     flex-direction: column;
 }
 
@@ -54,4 +54,26 @@
     flex-direction: column;
     justify-content: center;
     height: 50vh;
+}
+
+
+@media (max-width: 1500px) {
+    .context-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .context-logo img{
+        width:50%;
+        height: auto;
+        border-radius: 1rem;
+        margin-bottom: 5rem;
+        justify-self: center;
+        align-self: center;
+    
+    }
+
+    .context-text{
+        height: 30vh;
+    }
 }

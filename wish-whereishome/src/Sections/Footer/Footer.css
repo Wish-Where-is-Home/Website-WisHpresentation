@@ -55,6 +55,11 @@
     transition: 0.5s;
 }
 
+.footer-icon1:hover{
+    color: #2f95ac; 
+    transition: 0.5s;
+}
+
 .footer-copyright{
     display: flex;
     flex-direction: row;

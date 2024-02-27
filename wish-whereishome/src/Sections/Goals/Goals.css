@@ -31,3 +31,11 @@
 .goals-content div {
     display: flex;
 }
+
+
+
+@media (max-width: 1500px) {
+    .goals-section{
+        height: 0;
+    }
+}

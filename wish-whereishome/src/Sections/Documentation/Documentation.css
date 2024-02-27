@@ -118,3 +118,42 @@
   .product-button.active span{
     color: #2f95ac;
   }
+
+
+
+  @media (max-width: 1000px) {
+    .documentation-content{
+      width: 80%;
+    }
+
+    .row-documentation-h3 p{
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .documentation-content{
+      background-image: none;
+    }
+
+    .documentation-content{
+      width: 90%;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .row-documentation-h3 p{
+      font-size: 18px;
+      align-self: center;
+    }
+
+    .documentation-button {
+      margin-left: 0;
+      align-self: center;
+    }
+
+
+    .doc-button-div{
+      justify-content: center;
+    }
+  }
