@@ -26,6 +26,7 @@
     font-size: 20px;
     line-height: 1.3125;
     text-align: justify;
+    width: 100%;
 }
 
 .context-logo {
@@ -47,11 +48,10 @@
 
 }
 
-.context-text {
+.context-text{
     grid-column: 3;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-self: center;
-    display: flex; 
-    flex-direction: column; 
+    height: 50vh;
 }
