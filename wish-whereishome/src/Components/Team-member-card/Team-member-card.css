@@ -1,5 +1,5 @@
 .team-member-card {
-    width: calc(33.33333333333333% - 50px);
+    width: calc(33.33333333333333% - 25px);
     margin-bottom: 20px;
     background-color: rgba(85, 85, 85, 0.127);
     padding: 20px;
