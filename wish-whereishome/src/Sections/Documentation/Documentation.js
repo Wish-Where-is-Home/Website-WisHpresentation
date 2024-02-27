@@ -2,8 +2,9 @@ import React from 'react';
 import './Documentation.css';
 
 const Documentation = () => {
- 
-
+  const openDocumentation = () => {
+    window.open('https://whereishomedocumentation.netlify.app/', '_blank');
+  };
 
   return (
     <div id="documentation" className='documentation-section'>
@@ -13,9 +14,9 @@ const Documentation = () => {
           <p>See all project documentation here:</p>
         </div>
         <div className='doc-button-div'>
-          <button className='documentation-button' ><span>Documentation</span></button>
+          <button className='documentation-button' onClick={openDocumentation}><span>Documentation</span></button>
         </div>
-        </div>
+      </div>
     </div>
   );
 };

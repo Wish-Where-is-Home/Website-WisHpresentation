@@ -8,7 +8,7 @@ import { faGoogleDrive } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
   return (
-    <div className='footer-section' >
+    <div  id="footer" className='footer-section' >
       <div className='footer-container'>
         <div className='footer-github'>
           <a href="https://drive.google.com/drive/folders/1fGVwnjm3JD7zJtq1r_-hLAYAm13eImE8?usp=drive_link" className='footer-icon1' target="_blank" rel="noreferrer">

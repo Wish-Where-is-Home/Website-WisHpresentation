@@ -1,7 +1,7 @@
 .context-section{
     display: flex;
     padding: 0 40px;
-    height: 76vh;
+    height: 100%;
     flex-direction: column;
 }
 
@@ -18,7 +18,7 @@
 .context-content {
     display: grid;
     grid-template-columns: 45% 5% 50%;
-    height: 100vh;
+    height: 100%;
     align-items: center;
 }
 

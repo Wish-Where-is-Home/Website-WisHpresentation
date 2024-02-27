@@ -28,6 +28,7 @@ const Navbar = ({ isOpen, toggleNavbar }) => {
                     <li><Link to="architecture" spy={true} smooth={true} duration={500} className="navbar-link"onClick={toggleNavbar}>Architecture</Link></li>
                     <li><Link to="timeline" spy={true} smooth={true} duration={500} className="navbar-link"onClick={toggleNavbar}>Timeline</Link></li>
                     <li><Link to="team" spy={true} smooth={true} duration={500} className="navbar-link"onClick={toggleNavbar}>Team</Link></li>
+                    <li><Link to="footer" spy={true} smooth={true} duration={500} className="navbar-link"onClick={toggleNavbar}>Contact</Link></li>
                 </ul>
             </div>
             <div className='navbar-github'>
