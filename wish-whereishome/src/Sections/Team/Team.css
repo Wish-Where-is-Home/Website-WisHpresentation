@@ -76,7 +76,7 @@
 
 .show-team-cards{
     display: grid;
-    grid-template-columns: 70% 30% ;
+    grid-template-columns: 75% 25% ;
     gap: 40px;
     width: 100%;
     height: 100%;
