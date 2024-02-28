@@ -90,7 +90,7 @@
 .team-collum{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 
@@ -105,5 +105,15 @@
    .show-team-cards{
     display: flex;
     flex-direction: column;
+   }
+
+   .team-content{
+    width: 90%;
+   }
+
+
+   .row-team-p{
+    width: 90%;
+    align-self: center;
    }
 }

@@ -1,5 +1,5 @@
 .footer-section{
-    height: 17vh;
+    min-height: 17vh;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -106,4 +106,24 @@
     font-size: 14px;
     font-weight: 500;
     font-family: "metropolis-semibold", sans-serif;
+}
+
+
+@media (max-width:1000px){
+
+
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        padding:2rem 0 ;
+    }
+
+    .footer-github{
+        padding-bottom: 1rem;
+    }
+
+    .footer-content{
+        padding: 2rem 0 ;
+    }
+
 }
