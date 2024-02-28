@@ -11,7 +11,7 @@ function Footer() {
     <div  id="footer" className='footer-section' >
       <div className='footer-container'>
         <div className='footer-github'>
-          <a href="https://drive.google.com/drive/folders/1fGVwnjm3JD7zJtq1r_-hLAYAm13eImE8?usp=drive_link" className='footer-icon1' target="_blank" rel="noreferrer">
+          <a href=" https://drive.google.com/drive/folders/1fGVwnjm3JD7zJtq1r_-hLAYAm13eImE8?usp=sharing" className='footer-icon1' target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faGoogleDrive} />
           </a>
           <a href="https://github.com/Wish-Where-is-Home" className='footer-icon' target="_blank" rel="noreferrer">

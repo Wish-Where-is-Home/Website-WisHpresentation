@@ -35,7 +35,7 @@ const Navbar = ({ isOpen, toggleNavbar }) => {
                 <a href="https://github.com/Wish-Where-is-Home" className="github-icon" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faGithub} />
                 </a>
-                <a href="https://drive.google.com/drive/folders/1fGVwnjm3JD7zJtq1r_-hLAYAm13eImE8?usp=drive_link" className="github-icon" target="_blank" rel="noreferrer">
+                <a href=" https://drive.google.com/drive/folders/1fGVwnjm3JD7zJtq1r_-hLAYAm13eImE8?usp=sharing" className="github-icon" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faGoogleDrive} />
                 </a>
             </div>   
