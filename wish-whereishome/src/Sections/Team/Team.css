@@ -99,3 +99,11 @@
     justify-content: center;
     align-items: center;
 }
+
+
+@media (max-width: 1500px) {
+   .show-team-cards{
+    display: flex;
+    flex-direction: column;
+   }
+}
