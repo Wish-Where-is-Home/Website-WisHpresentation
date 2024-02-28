@@ -1,6 +1,5 @@
 .presentations-section{
     width: 100%;
-    max-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,4 +65,43 @@
     justify-content: space-around;
     display: flex;
     flex-direction: row;
+}
+
+
+
+
+@media (max-width: 1500px) {
+    .show-presentations{
+        flex-direction: column;
+        width: 100%;
+        height: 130vh;
+        align-items: center;
+        margin-top: 0;
+
+    }
+
+    .presentations-section{
+        min-height: 150vh;
+    }
+
+    .presentations-content{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .row-presentations-p p{
+        line-height: 42px;
+        font-family: "metropolis-regular", sans-serif;
+        font-size: 24px;
+        margin-bottom: 0;
+        color:rgba(85, 85, 85, 0.95);
+    }
+    
+
+
 }
