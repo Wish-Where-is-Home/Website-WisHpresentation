@@ -60,13 +60,44 @@ const Timeline = () => {
                 </span>
                 </p>
               <p> 
+              <span>Date: 23/04/2024</span>
                 <span className='timeline-title'>
-                  To be Done
+                Prototype; mid-term presentation with supervisors; peer evaluation.
+                </span>
+                <span>
+                  <ul>
+                    <li>
+                    Database Modelling and BackEnd Development based on the main core user stories
+                    </li>
+                    <li>
+                    UI Development based on the main core user stories
+                    </li>
+                  </ul>
                 </span>
               </p>
               <p>
+              <span>Date: 04/06/2024</span>
               <span className='timeline-title'>
-                  To be Done
+              Project presentation; all functionality has been developed! 
+                </span>
+                <span>
+                  <ul>
+                    <li>
+                    Developing the remaining user stories and API and backend stabilization
+                    </li>
+                    <li>
+                    Final development of the UI
+                    </li>
+                    <li>
+                    Integration and Developing of additional features 
+                    </li>
+                    <li>
+                    Write the documentation
+                    </li>
+                    <li>
+                    Demo and poster for students@deti & video.
+                    </li>
+                  </ul>
                 </span>
               </p>
           </div>
