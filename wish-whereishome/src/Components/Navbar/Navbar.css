@@ -143,6 +143,42 @@
   .github-icon svg {
     font-size: 30px;
   }
+
+
+  @media (max-width: 800px) {
+    .navbar{
+        width: 220px;
+
+    }
+
+    .navbar-title h3{
+        font-family: "metropolis-semibold", sans-serif;
+        font-size: 8px;
+        line-height: 1.363;
+        text-transform: uppercase;
+        letter-spacing: 0.25rem;
+        color: #4cdbfb;
+    }
+
+
+    .navbar-list{
+        font-family: "metropolis-regular", sans-serif;
+        font-size: 0.8rem;
+        margin: 3rem 0 1rem 0;
+        padding: 0 0 0 0;
+        list-style: none;
+        text-align: start;
+    }
+
+    .navbar-title{
+        margin-bottom: 2rem;
+    }
+
+    .navbar-list li{
+        line-height: 3rem;
+    }
+
+  }
   
 
 
