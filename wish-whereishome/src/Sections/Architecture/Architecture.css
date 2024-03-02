@@ -37,3 +37,12 @@
     color: #2f95ac; 
     align-self: flex-start;
 }
+
+
+@media (max-width: 1500px) {
+    
+        .Architecture-content{
+            width: 80%;
+        }
+    
+}
