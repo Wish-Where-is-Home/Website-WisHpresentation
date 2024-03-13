@@ -1,5 +1,6 @@
 import React from 'react';
 import './Architecture.css';
+import imgarquitetura from '../../Assets/Arquitetura.png';
 
 const Architecture = () => {
   return (
@@ -9,9 +10,9 @@ const Architecture = () => {
               <h3>/ Architecture</h3>
             </div>
             <div className='row-presentations-p'>
-                <p>In development... (testing frameworks) </p>
+                <p>Our System Architecture </p>
             </div>
-            
+            <img src={imgarquitetura} alt='arquitetura'/>
         </div>
     </div>
   );
