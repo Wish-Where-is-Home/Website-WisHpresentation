@@ -1,7 +1,8 @@
 import React from 'react';
 import './Presentations.css';
 import DownloadPresentations from '../../Components/DownloadPresentations/DownloadPresentations';
-import pptPreview from '../../Assets/InceptionPhasePptx.png';
+import ppt1Preview from '../../Assets/InceptionPhasePptx.png';
+import ppt2Preview from '../../Assets/ElaborationPhasePptx.png';
 
 
 
@@ -17,8 +18,8 @@ const Presentations = () => {
                 <p>Presentation files available for download, providing an overview of the project in a concise manner. </p>
             </div>
             <div className='show-presentations'>
-              <DownloadPresentations  filename="Milestone_1_WisH_Where_is_Home.pptx" file="/Pptx/Milestone_1_WisH_Where_is_Home.pptx" text="Inception" img={pptPreview}/>
-              <DownloadPresentations text="Elaboration"/>
+              <DownloadPresentations  filename="Milestone_1_WisH_Where_is_Home.pdf" file="/Pptx/Milestone_1_WisH_Where_is_Home.pdf" text="Inception" img={ppt1Preview}/>
+              <DownloadPresentations filename="Milestone_2_WisH_Where_is_Home.pdf" file="/Pptx/Milestone_2_WisH_Where_is_Home.pdf"  text="Elaboration" img={ppt2Preview} />
               <DownloadPresentations text="Construction"/>
               <DownloadPresentations text="Transition"/>
             </div>
