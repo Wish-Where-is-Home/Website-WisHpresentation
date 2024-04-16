@@ -1,8 +1,8 @@
 .goal-card {
     position: relative;
-    width: 27rem;
-    height: 15rem;
-    max-height: 15rem;
+    width: 32rem;
+    height: 25rem;
+    max-height: 25rem;
     box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
       inset -5px -5px 15px rgba(255, 255, 255, 0.1),
       5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
@@ -51,7 +51,7 @@
 
  .goal-card .box .content h2 {
     position: absolute;
-    top: -50px;
+    bottom: -50px;
     right: 30px;
     font-size: 8rem;
     color: rgba(255, 255, 255, 0.1);

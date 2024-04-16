@@ -4,6 +4,8 @@
     height: 60vh;
     flex-direction: column;
     padding-bottom: 3rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .goals-section h3 {
@@ -34,8 +36,9 @@
 
 
 
-@media (max-width: 1500px) {
-    .goals-section{
-        height: 0;
+@media (max-width: 768px) {
+    .goals-content{
+        margin-top: 5rem;
     }
+
 }
