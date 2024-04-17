@@ -3,7 +3,7 @@ import './Presentations.css';
 import DownloadPresentations from '../../Components/DownloadPresentations/DownloadPresentations';
 import ppt1Preview from '../../Assets/InceptionPhasePptx.png';
 import ppt2Preview from '../../Assets/ElaborationPhasePptx.png';
-
+import ppt3Preview from '../../Assets/ConstructionPhasePptx.png';
 
 
 
@@ -20,7 +20,7 @@ const Presentations = () => {
             <div className='show-presentations'>
               <DownloadPresentations  filename="Milestone_1_WisH_Where_is_Home.pdf" file="/Pptx/Milestone_1_WisH_Where_is_Home.pdf" text="Inception" img={ppt1Preview}/>
               <DownloadPresentations filename="Milestone_2_WisH_Where_is_Home.pdf" file="/Pptx/Milestone_2_WisH_Where_is_Home.pdf"  text="Elaboration" img={ppt2Preview} />
-              <DownloadPresentations text="Construction"/>
+              <DownloadPresentations filename="Milestone_3_WisH_Where_is_Home.pptx" file="/Pptx/Milestone_2_WisH_Where_is_Home.pptx" text="Construction"   img={ppt3Preview}/>
               <DownloadPresentations text="Transition"/>
             </div>
             

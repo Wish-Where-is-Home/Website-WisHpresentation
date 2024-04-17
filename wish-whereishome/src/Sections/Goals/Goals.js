@@ -8,7 +8,7 @@ const Goals = () => {
         <h3>Goals</h3>
         <div className='goals-content'>
           <GoalsCard number="01" goal="Development of an innovative platform for location assessment."/>
-          <GoalsCard  number="02" goal="Creation of a social support module to aid in housing search." text="text to be added"/>
+          <GoalsCard  number="02" goal="Creation of a social support module to aid in housing search for Univeristy of Aveiro students" text="text to be added"/>
         </div>
     </div>
   );
