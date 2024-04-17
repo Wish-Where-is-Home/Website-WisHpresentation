@@ -95,7 +95,7 @@ const Timeline = () => {
                     Write the documentation
                     </li>
                     <li>
-                    Demo and poster for students@deti & video.
+                    Final development of the UI
                     </li>
                   </ul>
                 </span>
