@@ -20,7 +20,7 @@ const Presentations = () => {
             <div className='show-presentations'>
               <DownloadPresentations  filename="Milestone_1_WisH_Where_is_Home.pdf" file="/Pptx/Milestone_1_WisH_Where_is_Home.pdf" text="Inception" img={ppt1Preview}/>
               <DownloadPresentations filename="Milestone_2_WisH_Where_is_Home.pdf" file="/Pptx/Milestone_2_WisH_Where_is_Home.pdf"  text="Elaboration" img={ppt2Preview} />
-              <DownloadPresentations filename="Milestone_3_WisH_Where_is_Home.pdf" file="/Pptx/Milestone_2_WisH_Where_is_Home.pdf" text="Construction"   img={ppt3Preview}/>
+              <DownloadPresentations filename="Milestone_3_WisH_Where_is_Home.pptx" file="/Pptx/Milestone_3_WisH_Where_is_Home.pptx" text="Construction"   img={ppt3Preview}/>
               <DownloadPresentations text="Transition"/>
             </div>
             
