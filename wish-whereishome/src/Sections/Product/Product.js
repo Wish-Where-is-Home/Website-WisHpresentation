@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './Product.css';
 import Context from '../Context/Context';
 import Goals from '../Goals/Goals';
+import Promovideo from '../../Components/Promovideo/Promovideo';
+import Poster from '../../Components/Poster/Poster';
 import ButtonsProduct from '../../Components/ButtonsProduct/ButtonsProduct';
 
 const Product = () => {
@@ -19,10 +21,14 @@ const Product = () => {
         </div>
         {displayedComponent === 'Context' && <Context />}
         {displayedComponent === 'Goals' && <Goals />}
+        {displayedComponent === 'Promovideo' && <Promovideo/>}
+        {displayedComponent === 'Poster' && <Poster/>}
       </div>
       <div className='product-buttons-switch'>
         <ButtonsProduct text="Context" active={displayedComponent === 'Context'} handleClick={() => handleClick('Context')} />
         <ButtonsProduct text="Goals" active={displayedComponent === 'Goals'} handleClick={() => handleClick('Goals')} />
+        <ButtonsProduct text="Promotional video" active={displayedComponent === 'Promovideo'} handleClick={() => handleClick('Promovideo')} />
+        <ButtonsProduct text="Poster" active={displayedComponent === 'Poster'} handleClick={() => handleClick('Poster')} />
       </div>
     </div>
   );

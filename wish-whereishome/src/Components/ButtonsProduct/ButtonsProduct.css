@@ -54,3 +54,14 @@
   .product-button.active span{
     color: #2f95ac;
   }
+
+
+
+@media (max-width: 1500px) {
+  
+
+  .product-buttons-switch button:nth-child(3),
+  .product-buttons-switch button:nth-child(4){
+    margin-top: 3rem;
+  }
+}

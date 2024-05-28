@@ -41,10 +41,10 @@
 .product-buttons-switch{
     display: flex;
     justify-self: end;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0 20px;
-    padding-top: 5rem;
-    width: 20%;
+    padding-top: 3rem;
+    width: 50%;
     min-height: 2rem;
 }
 
@@ -54,7 +54,8 @@
 
     .product-buttons-switch{
         width: 40%;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
     }
 
 
@@ -93,7 +94,7 @@
 .product-buttons-switch{
     display: flex;
     justify-self: end;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0 20px;
     padding-top: 5rem;
     width: 40%;
@@ -107,7 +108,7 @@
     .product-buttons-switch{
         width: 70%;
         margin-top: 10rem;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     .product-content{
