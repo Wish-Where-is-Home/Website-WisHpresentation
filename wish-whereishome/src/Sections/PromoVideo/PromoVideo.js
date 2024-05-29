@@ -1,12 +1,17 @@
-import React from 'react';
-import './Promovideo.css';
+import React, { useState } from 'react';
+import './PromoVideo.css';
 import video from '../../Assets/promo_wish-where-is-home .mp4';
 
+const PromoVideo = () => {
 
-const Promovideo = () => {
+
   return (
-    <div className='promovideo-section'>
-        <h3>Promotional Video</h3>
+    <div id="promovideo" className='promoVideo-section'>
+      <div className='promoVideo-content'>
+        <div className='row-product-h3'>
+          <h3 style={{marginBottom:'2rem'}}>/ Promotional Video</h3>
+        </div>
+        <div className='promovideo-section'>
         <div className='promovideo-content'>
             <div>
                             <video width="100%" height="100%" className="video2" autoPlay loop muted controls disablePictureInPicture controlsList="nodownload">                            
@@ -16,7 +21,9 @@ const Promovideo = () => {
                             </div>
             </div>
     </div>
+    </div>
+    </div>
   );
 };
 
-export default Promovideo;
+export default PromoVideo;

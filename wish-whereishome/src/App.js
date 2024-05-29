@@ -13,6 +13,7 @@ import Presentations from './Sections/Presentations/Presentations';
 import Architecture from './Sections/Architecture/Architecture';
 import Timeline from './Sections/Timeline/Timeline';
 import Documentation from './Sections/Documentation/Documentation';
+import PromoVideo from './Sections/PromoVideo/PromoVideo';
 
 
 
@@ -51,6 +52,7 @@ function App() {
           <NavbarOpenButton onClick={toggleNavbar} />
            <Navbar isOpen={isOpen} toggleNavbar={toggleNavbar}/>
           <Home />
+          <PromoVideo/>
           <Product />
           <Documentation/>
           <Presentations/>

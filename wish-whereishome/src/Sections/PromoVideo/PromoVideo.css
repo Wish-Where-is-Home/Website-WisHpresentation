@@ -1,3 +1,23 @@
+.promoVideo-section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    flex-direction: column;
+}
+
+
+
+.promoVideo-content{
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    width: 75%;
+}
+
+
 .promovideo-section {
     display: flex;
     padding: 0 40px;
@@ -14,7 +34,7 @@
     align-self: flex-start;
     text-align: start;
     width: 100%;
-    padding-bottom: 1rem;
+    padding-bottom: 4rem;
 }
 
 
@@ -43,6 +63,28 @@
     border: 1px solid white;
     border-radius: 1rem;
 }
+
+
+.row-product-h3{
+    width: 100%;
+    float: left;
+    padding: 0 20px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+}
+
+
+.row-product-h3 h3{
+    font-family: "metropolis-semibold", sans-serif;
+    font-size: 16px;
+    line-height: 1.3125;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    color: #2f95ac; 
+    align-self: flex-start;
+}
+
 
 
 
