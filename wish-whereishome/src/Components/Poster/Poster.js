@@ -1,7 +1,6 @@
 import React from 'react';
 import './Poster.css';
 import DownloadPresentations from '../../Components/DownloadPresentations/DownloadPresentations';
-import posterimage from '../../Assets/poster.png';
 import poster1 from '../../Assets/ST2024-Students-Exemplo-Poster.png';
 
 
@@ -17,7 +16,7 @@ const Poster = () => {
                 <DownloadPresentations filename="ST2024-Students-Exemplo-Poster.pdf" file="/Pptx/ST2024-Students-Exemplo-Poster.pdf" text="Download Poster"   img={poster1}/>
               </div>
                 <div className='poster-img'>
-                    <img src={poster1}>
+                    <img src={poster1} alt='imageposter'>
                     </img>
                 </div>
             </div>

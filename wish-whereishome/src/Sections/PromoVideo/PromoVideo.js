@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './PromoVideo.css';
 import video from '../../Assets/promo_wish-where-is-home .mp4';
 
