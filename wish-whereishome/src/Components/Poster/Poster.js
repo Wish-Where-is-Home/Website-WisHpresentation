@@ -16,13 +16,13 @@ const Poster = () => {
                 <DownloadPresentations filename="ST2024-Students-Exemplo-Poster.pdf" file="/Pptx/ST2024-Students-Exemplo-Poster.pdf" text="Download Poster"   img={poster1}/>
               </div>
                 <div className='poster-img'>
-                    <img src={poster1} alt='imageposter'>
+                    <img src={poster1} alt="imageposter">
                     </img>
                 </div>
             </div>
             <div id="modal" class="modal">
         <span class="close">&times;</span>
-        <img class="modal-content" id="imgModal"/>
+        <img class="modal-content" id="imgModal" alt='imgmodal'/>
     </div>
     </div>
     
