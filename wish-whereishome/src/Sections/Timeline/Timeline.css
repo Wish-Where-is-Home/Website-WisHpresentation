@@ -131,10 +131,13 @@
   }
 
   .timeline-container p:nth-child(4){
-    border-image: linear-gradient(to right, #6f1b8e  0%,#b589c9  50% , #b589c9 100%);
+    border-image: linear-gradient(to right, #8dc9d6  0%, #0989a6 100%);
     border-image-slice: 1;
     border-width: 3px;
   }
+
+
+  
   
   /* numbers */
   .timeline-container p:before {
